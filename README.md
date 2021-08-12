@@ -6,7 +6,7 @@ This repo is a fork of the [webassembly-micro-runtime](https://github.com/byteco
 repo by bytecodealliance. It includes an additional sample wasm program called "wafle", 
 which shows how to call a native C function from inside a wasm module.
 
-# Setting up your environment
+## Setting up your environment
 
 Clone this repo in your workspace of choice:
 ```
@@ -26,7 +26,7 @@ tar xfv wasi-sdk.tar.gz
 sudo mv wasi-sdk-12.0 /opt/wasi-sdk
 ```
 
-# Build the sample application 
+## Build the sample application 
 
 Go to the "wafle" directory and run the build script:
 ```
