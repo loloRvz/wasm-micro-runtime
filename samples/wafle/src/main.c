@@ -25,7 +25,7 @@ int native_callback(wasm_exec_env_t exec_env, char *buffer, int buffer_len, int 
 		printf("%c",buffer[i]);
 	}printf("\n\n");
 	*/
-	printf("Native call time: %f ms\n",(float)(t1.tv_nsec-t0)/1000000);
+	//printf("Native call time: %f ms\n",(float)(t1.tv_nsec-t0)/1000000);
 	//printf("%f\n",(float)(t1.tv_nsec-t0)/1000000);
 	
 

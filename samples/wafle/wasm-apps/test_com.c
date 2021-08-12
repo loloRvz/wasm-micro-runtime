@@ -20,7 +20,7 @@ int main(int argc, char **argv){
 	clock_gettime(CLOCK_REALTIME, &t0);
 	int t2 = native_callback(buffer, buffer_len, t0.tv_nsec);
 	clock_gettime(CLOCK_REALTIME, &t3);
-	printf("Native return time: %f ms\n",(float) (t3.tv_nsec-t2)/1000000);
+	//printf("Native return time: %f ms\n",(float) (t3.tv_nsec-t2)/1000000);
 	//printf("%f\n",(float) (t3.tv_nsec-t2)*0.000001);
 	
 	return 0;
