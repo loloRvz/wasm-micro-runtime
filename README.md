@@ -10,7 +10,8 @@ which shows how to call a native C function from inside a wasm module.
 
 Clone this repo in your workspace of choice:
 ```
-git clone https://github.com/loloRvz/wasm-micro-runtime.git wamr-wafle
+git clone https://github.com/loloRvz/wasm-micro-runtime.git
+cd wasm-micro-runtime
 ```
 
 Install the necessary C programming tools:
@@ -30,7 +31,6 @@ sudo mv wasi-sdk-12.0 /opt/wasi-sdk
 
 Go to the "wafle" directory and run the build script:
 ```
-cd wamr-wafle
 cd samples/wafle
 ./build.sh
 ```
