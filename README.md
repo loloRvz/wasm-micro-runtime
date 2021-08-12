@@ -25,6 +25,7 @@ and extract the archive to its default path ```/opt/wasi-sdk```.
 curl -L https://github.com/WebAssembly/wasi-sdk/releases/download/wasi-sdk-12/wasi-sdk-12.0-linux.tar.gz > wasi-sdk.tar.gz
 tar xfv wasi-sdk.tar.gz
 sudo mv wasi-sdk-12.0 /opt/wasi-sdk
+rm wasi-sdk.tar.gz
 ```
 
 ## Build the sample application 
